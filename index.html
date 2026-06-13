@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colombia 5.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Grotesk:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/colombia.css">
+
+</head>
+
+<body>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb">
+  <button class="lb-x" onclick="closeLb()">✕</button>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Col<span>5.0</span> · ADSO</a>
+  <ul>
+    <li><a href="#sobre" data-i18n="nav.event">El evento</a></li>
+    <li><a href="#conferencias" data-i18n="nav.conf">Conferencias</a></li>
+    <li><a href="#conceptos" data-i18n="nav.concepts">Conceptos</a></li>
+    <li><a href="#multimedia" data-i18n="nav.media">Multimedia</a></li>
+    <li><a href="createx.html" data-i18n="nav.createx">Createx</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('es')">ES</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+    <span class="nav-pill">SENA · 2026</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-dl" data-i18n="hero.dateline">Corferias · Bogotá D.C.</div>
+  <div class="hero-display">
+    <span class="tc">COLOMBIA</span><br>
+    <span class="out">5</span><span class="tc">.</span><span class="out-t">0</span><br>
+    <span style="font-family:var(--font-h);font-size:.18em;letter-spacing:.2em;color:rgba(238,242,255,.3);line-height:2.5;font-weight:400;">BOGOTÁ &nbsp;·&nbsp; 2026</span>
+  </div>
+  <p class="hero-tagline" data-i18n="hero.tagline">
+    El encuentro de ecosistemas digitales más importante de <strong>Colombia y Latinoamérica</strong>, organizado por el MinTIC. Inteligencia artificial, soberanía digital, innovación y talento tecnológico en un mismo escenario.
+  </p>
+  <div class="hero-row">
+    <div class="meta-block"><span class="meta-label" data-i18n="hero.date_label">Fecha</span><span class="meta-val" data-i18n="hero.date_val">8 de mayo, 2026</span></div>
+    <div class="hero-sep"></div>
+    <div class="meta-block"><span class="meta-label" data-i18n="hero.venue_label">Sede</span><span class="meta-val">Corferias, Bogotá</span></div>
+    <div class="hero-sep"></div>
+    <div class="meta-block"><span class="meta-label" data-i18n="hero.org_label">Organiza</span><span class="meta-val">MinTIC Colombia</span></div>
+    <div class="hero-sep"></div>
+    <div class="meta-block"><span class="meta-label" data-i18n="hero.report_label">Informe</span><span class="meta-val">SENA · ADSO</span></div>
+  </div>
+  <div class="hero-btns">
+    <a href="#conferencias" class="btn-main" data-i18n="hero.btn_conf">Ver conferencias →</a>
+    <a href="#sobre" class="btn-ghost" data-i18n="hero.btn_about">Sobre el evento</a>
+  </div>
+ 
+</section>
+
+<div class="divider"></div>
+
+<!-- SOBRE EL EVENTO -->
+<section id="sobre">
+  <div class="about-grid">
+    <div class="about-img rv">
+      <img src="ImagenesCol/LC2.png" alt="Colombia 5.0 – Agentic AI, How AI is Reinventing Business">
+      <span class="img-label">Corferias · 8 mayo 2026</span>
+    </div>
+    <div class="rv">
+      <div class="eyebrow" data-i18n="about.eyebrow">¿Qué es Colombia 5.0?</div>
+      <h2 class="s-title" data-i18n="about.title">El laboratorio digital más grande del país</h2>
+      <div class="about-text">
+        <p data-i18n="about.p1">Colombia 5.0 es la <strong>evolución de Colombia 4.0</strong>, una iniciativa del MinTIC que lleva más de una década acercando la tecnología a ciudadanos, empresas y emprendedores. El nombre hace referencia a la <strong>"Sociedad 5.0"</strong>: la visión donde la tecnología resuelve retos sociales reales.</p>
+        <p data-i18n="about.p2">La edición Bogotá 2026 transformó Corferias en un espacio de conferencias, talleres, ruedas de empleo y demos inmersivas, con la participación de expertos de <strong>AWS, Google Cloud, Samsung, Ericsson y LinkedIn</strong>, además de líderes del ecosistema IA en Latinoamérica.</p>
+        <p data-i18n="about.p3">Para los aprendices del SENA en <strong>ADSO</strong>, este evento es una ventana directa a las tendencias que van a definir el mercado laboral: agentes de IA, automatización de procesos, soberanía de datos y nuevas arquitecturas de software.</p>
+      </div>
+      <div class="tags">
+        <span class="tag on">Inteligencia Artificial</span>
+        <span class="tag on">Desarrollo de Software</span>
+        <span class="tag">Ciberseguridad</span>
+        <span class="tag">FinTech</span>
+        <span class="tag">Soberanía Digital</span>
+        <span class="tag">AWS · Cloud</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONFERENCIAS -->
+<section id="conferencias">
+  <div class="conf-hd rv">
+    <div>
+      <div class="eyebrow" data-i18n="conf.eyebrow">Día 1 · 8 de mayo de 2026</div>
+      <h2 class="s-title" data-i18n="conf.title">Conferencias destacadas</h2>
+      <p class="s-sub" style="margin-bottom:0" data-i18n="conf.sub">Dos conferencias seleccionadas por su relevancia para programadores en formación ADSO.</p>
+    </div>
+    <div class="tab-bar">
+      <button class="tab-btn on" onclick="sw('c1',this)" data-i18n="conf.tab1">Agentic AI</button>
+      <button class="tab-btn" onclick="sw('c2',this)" data-i18n="conf.tab2">IA con Criterio</button>
+    </div>
+  </div>
+
+  <!-- ── CONFERENCIA 1: LUIS CARO ── -->
+  <div class="conf-pane on" id="c1">
+    <div class="conf-card rv">
+      <div class="conf-left">
+        <span class="badge badge-teal" data-i18n="c1.badge">Inteligencia Artificial</span>
+        <h3 class="conf-title">Agentic AI: How AI Is Reinventing Business</h3>
+        <div class="speaker-card">
+          <div class="sp-photo"><img src="ImagenesCol/LC1.png" alt="Dr. Luis Caro"></div>
+          <div>
+            <div class="sp-name">Dr. Luis Caro</div>
+            <div class="sp-role">LATAM Cloud AI &amp; Innovation Leader</div>
+            <div class="sp-org">Amazon Web Services (AWS)</div>
+          </div>
+        </div>
+        <div class="tp">
+          <span class="tp-item">🕛 12:00 PM · 8 mayo</span>
+          <span class="tp-item">📍 <span data-i18n="c1.location">Auditorio 1 · Pabellón 3</span></span>
+        </div>
+      </div>
+      <div class="conf-body">
+        <p data-i18n="c1.p1">Esta fue una de las conferencias más esperadas del día 1. El Dr. Luis Caro, líder de IA en AWS para Latinoamérica, explicó el gran cambio que representa pasar de una IA que <strong>solo responde preguntas</strong> a una IA que puede <strong>planear y ejecutar tareas de forma autónoma</strong>.</p>
+        <p data-i18n="c1.p2">El mensaje central fue claro: los <span class="hl">Agentes de IA</span> son el siguiente nivel del desarrollo de software. Ya no se trata de chatbots con respuestas estáticas — son sistemas que reciben un objetivo, diseñan los pasos para lograrlo y los ejecutan solos, usando APIs, bases de datos y otros agentes.</p>
+        <p data-i18n="c1.p3">Para nosotros como aprendices de ADSO, esto cambia cómo vamos a diseñar sistemas en el futuro. Un ejemplo concreto del ponente: pedirle al sistema <em>"genera el reporte de ventas del mes"</em> y que el agente consulte la BD, detecte anomalías, genere la gráfica y entregue el archivo — sin intervención humana en cada paso.</p>
+      </div>
+    </div>
+
+    <div class="photo-hd rv">📸 <span data-i18n="gallery.title">Galería de la conferencia</span> <span class="ct">Agentic AI · Luis Caro</span></div>
+    <div class="pgrid rv">
+      <div class="pi tall" onclick="openLb('ImagenesCol/LC1.png','Dr. Luis Caro – AWS')"><img src="ImagenesCol/LC1.png" alt="Dr. Luis Caro"><div class="pi-ov"><span class="pi-cap">Dr. Luis Caro · AWS</span></div></div>
+      <div class="pi wide" onclick="openLb('ImagenesCol/LC2.png','Agentic AI – How AI Is Reinventing Business')"><img src="ImagenesCol/LC2.png" alt="Slide apertura Agentic AI"><div class="pi-ov"><span class="pi-cap" data-i18n="lc.cap2">Slide de apertura</span></div></div>
+      <div class="pi" onclick="openLb('ImagenesCol/LC3.png','Diagrama de Agentes IA')"><img src="ImagenesCol/LC3.png" alt="Diagrama de agentes"><div class="pi-ov"><span class="pi-cap" data-i18n="lc.cap3">Diagrama conceptual</span></div></div>
+      <div class="pi" onclick="openLb('ImagenesCol/LC4.png','An AI Mindset')"><img src="ImagenesCol/LC4.png" alt="An AI Mindset"><div class="pi-ov"><span class="pi-cap">An AI Mindset</span></div></div>
+      <div class="pi wide" onclick="openLb('ImagenesCol/LC5.png','Demo en vivo – arquitectura de agentes')"><img src="ImagenesCol/LC5.png" alt="Demo en vivo"><div class="pi-ov"><span class="pi-cap" data-i18n="lc.cap5">Demo en vivo · Código</span></div></div>
+   
+    </div>
+
+    <div id="conceptos" class="rv">
+      <div class="eyebrow" style="margin-top:3rem" data-i18n="learned.eyebrow">Lo que aprendimos</div>
+      <h3 class="s-title" style="margin-bottom:.8rem" data-i18n="c1.pillars_title">Los 4 pilares de un Agente de IA</h3>
+      <p class="s-sub" data-i18n="c1.pillars_sub">Según la conferencia, todo agente bien construido tiene estos componentes. Como desarrolladores ADSO, estos son los módulos que tendríamos que programar.</p>
+    </div>
+    <div class="cg rv">
+      <div class="cc"><div class="cc-n">01</div><div class="cc-t" data-i18n="p1.t">Perfil / System Prompt</div><div class="cc-d" data-i18n="p1.d">Es como las reglas de negocio del agente: le defines quién es, qué puede hacer y qué no. En ADSO equivale a definir los requerimientos funcionales y restricciones del sistema.</div><span class="cc-tag" data-i18n="p1.tag">Análisis de requisitos</span></div>
+      <div class="cc"><div class="cc-n">02</div><div class="cc-t" data-i18n="p2.t">Módulo de Memoria</div><div class="cc-d" data-i18n="p2.d">Corto plazo: variables de sesión. Largo plazo: bases de datos vectoriales con embeddings. Crucial para sistemas que necesitan recordar historial de usuarios o documentos.</div><span class="cc-tag" data-i18n="p2.tag">Bases de datos</span></div>
+      <div class="cc"><div class="cc-n">03</div><div class="cc-t" data-i18n="p3.t">Caja de Herramientas</div><div class="cc-d" data-i18n="p3.d">Son las APIs, conectores a BD e intérpretes de código que el agente invoca solo. Como programador, tu trabajo es construir y exponer estas herramientas de forma segura.</div><span class="cc-tag">API REST · SQL</span></div>
+      <div class="cc"><div class="cc-n">04</div><div class="cc-t" data-i18n="p4.t">Capacidad de Planificación</div><div class="cc-d" data-i18n="p4.d">Patrones como Chain-of-Thought o ReAct que permiten al agente descomponer un problema en micro-tareas. Ingeniería de software aplicada al razonamiento de la IA.</div><span class="cc-tag" data-i18n="p4.tag">Patrones de diseño</span></div>
+    </div>
+
+    <div class="rv" style="margin-top:3rem">
+      <div class="eyebrow" data-i18n="fw.eyebrow">Frameworks mencionados por el ponente</div>
+      <h3 class="s-title" style="margin-bottom:1rem" data-i18n="fw.title">Herramientas que ya puedes aprender</h3>
+    </div>
+    <div class="fg rv">
+      <div class="fc"><div class="fc-n">LangChain</div><div class="fc-u" data-i18n="fw1.u">Agentes basados en grafos</div><div class="fc-d" data-i18n="fw1.d">Ideal para flujos de trabajo donde el agente toma decisiones en árbol. Muy usado en proyectos Python con LLMs.</div></div>
+      <div class="fc"><div class="fc-n">CrewAI</div><div class="fc-u" data-i18n="fw2.u">Arquitecturas multi-agente</div><div class="fc-d" data-i18n="fw2.d">Permite crear equipos de agentes especializados: uno valida datos, otro genera código, otro hace QA. Como dividir roles en un equipo de desarrollo.</div></div>
+      <div class="fc"><div class="fc-n">AutoGen</div><div class="fc-u" data-i18n="fw3.u">Agentes colaborativos</div><div class="fc-d" data-i18n="fw3.d">Desarrollado por Microsoft. Facilita que múltiples agentes se comuniquen con protocolos definidos, ideal para automatizar procesos de negocio complejos.</div></div>
+    </div>
+  </div>
+
+  <!-- ── CONFERENCIA 2: RODRIGO REYES ── -->
+  <div class="conf-pane" id="c2">
+    <div class="conf-card rv" style="border-color:rgba(122,226,58,.2)">
+      <div class="conf-left">
+        <span class="badge badge-lime" data-i18n="c2.badge">Ecosistemas Digitales</span>
+        <h3 class="conf-title" data-i18n="c2.conf_title">Ecosistemas Digitales Integrados para el Territorio</h3>
+        <div class="speaker-card" style="background:rgba(122,226,58,.05);border-color:rgba(122,226,58,.18)">
+          <div class="sp-photo" style="background:rgba(122,226,58,.12);display:flex;align-items:center;justify-content:center;font-family:var(--font-d);font-size:1.3rem;color:var(--lime)">RR</div>
+          <div>
+            <div class="sp-name">Rodrigo Reyes</div>
+            <div class="sp-role" style="color:var(--lime)" data-i18n="c2.speaker_role">Experto en Transformación Digital</div>
+            <div class="sp-org">Colombia 5.0 · Bogotá 2026</div>
+          </div>
+        </div>
+        <div class="tp">
+          <span class="tp-item">📍 <span data-i18n="c2.location">Auditorio · Pabellón 3</span></span>
+          <span class="tp-item">🗓 8 mayo 2026</span>
+        </div>
+      </div>
+      <div class="conf-body">
+        <p data-i18n="c2.p1">Rodrigo Reyes planteó un cambio de mentalidad fundamental para nosotros como futuros desarrolladores: el software no puede vivir aislado del contexto donde opera. El concepto central fue pasar de <strong>"islas de código"</strong> a <span class="hlg">Ecosistemas Digitales Integrados</span>.</p>
+        <p data-i18n="c2.p2">Para ADSO, esto redefine el análisis de requisitos: el software no solo debe ser <strong>funcionalmente correcto</strong>, sino también <strong>arquitectónicamente viable</strong> según el contexto real de despliegue — la conectividad disponible, la infraestructura cloud y el nivel de alfabetización digital de los usuarios.</p>
+        <p data-i18n="c2.p3">La conferencia cerró con un mensaje clave: el desarrollador moderno ya no es un programador aislado que recibe un documento de diseño. La Sociedad 5.0 exige analistas con <strong>visión de negocio y territorio</strong>, capaces de idear sistemas integrales que generen impacto real en la productividad del usuario.</p>
+      </div>
+    </div>
+
+    <div class="photo-hd rv">📸 <span data-i18n="gallery.title">Galería de la conferencia</span> <span class="ct">Rodrigo Reyes · Ecosistemas Digitales</span></div>
+    <div class="pgrid rv">
+      <div class="pi tall" onclick="openLb('ImagenesCol/IG1.png','Rodrigo Reyes – conferencia Colombia 5.0')"><img src="ImagenesCol/IG1.png" alt="Rodrigo Reyes en escenario Colombia 5.0"><div class="pi-ov"><span class="pi-cap">Rodrigo Reyes · apertura</span></div></div>
+      <div class="pi wide" onclick="openLb('ImagenesCol/IG2.png','Rodrigo Reyes – Ecosistemas Digitales')"><img src="ImagenesCol/IG2.png" alt="Slide Ecosistemas Digitales"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap2">Diapositiva del tema</span></div></div>
+      <div class="pi" onclick="openLb('ImagenesCol/IG3.png','Colombia 5.0 – Rodrigo Reyes')"><img src="ImagenesCol/IG3.png" alt="Ponente en escenario"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap3">Presentación en escenario</span></div></div>
+      <div class="pi" onclick="openLb('ImagenesCol/IG4.png','Colombia 5.0 – Rodrigo Reyes')"><img src="ImagenesCol/IG4.png" alt="Diapositiva de la conferencia"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap4">Diapositiva clave</span></div></div>
+      <div class="pi wide" onclick="openLb('ImagenesCol/IG5.png','Rodrigo Reyes – auditorio Colombia 5.0')"><img src="ImagenesCol/IG5.png" alt="Ponente al frente del auditorio"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap5">Ponente · auditorio</span></div></div>
+      
+    </div>
+
+    <div class="rv">
+      <div class="eyebrow" style="margin-top:3rem" data-i18n="learned.eyebrow">Lo que aprendimos</div>
+      <h3 class="s-title" style="margin-bottom:.8rem" data-i18n="c2.pillars_title">Los 3 pilares del Ecosistema Digital</h3>
+      <p class="s-sub" data-i18n="c2.pillars_sub">Reyes desglosa la construcción de soluciones robustas en tres dimensiones que deben funcionar de forma sincronizada.</p>
+    </div>
+    <div class="eco-box rv">
+      <div class="eco-title" data-i18n="eco.title">Ecosistema Digital Integrado</div>
+      <div class="eco-cols">
+        <div class="eco-col"><div class="eco-col-t" data-i18n="eco.col1t">Infraestructura</div><div class="eco-col-d" data-i18n="eco.col1d">Red / Cloud — Sin canal de datos óptimo, los sistemas distribuidos pierden escalabilidad y disponibilidad.</div></div>
+        <div class="eco-col"><div class="eco-col-t" data-i18n="eco.col2t">Arquitectura</div><div class="eco-col-d" data-i18n="eco.col2d">Software / APIs — Patrones modulares e interoperabilidad con APIs REST estándar para conectar sistemas locales preexistentes.</div></div>
+        <div class="eco-col"><div class="eco-col-t" data-i18n="eco.col3t">Apropiación</div><div class="eco-col-d" data-i18n="eco.col3d">UX / UI — Un sistema que el usuario no comprende o rechaza es un fracaso técnico en el ciclo de vida del software.</div></div>
+      </div>
+    </div>
+    <div class="cg rv">
+      <div class="cc"><div class="cc-n">01</div><div class="cc-t" data-i18n="r1.t">Diseño Offline-First</div><div class="cc-d" data-i18n="r1.d">Desarrollar apps optimizadas en consumo de recursos, capaces de trabajar con baja conectividad usando Service Workers para almacenar datos localmente y sincronizar cuando haya red.</div><span class="cc-tag">PWA · Service Workers</span></div>
+      <div class="cc"><div class="cc-n">02</div><div class="cc-t" data-i18n="r2.t">Interoperabilidad</div><div class="cc-d" data-i18n="r2.d">El backend debe estar listo para consumir y exponer servicios que conecten diferentes entidades, con esquemas de datos bien definidos que protejan la integridad de la información.</div><span class="cc-tag">API REST · Microservicios</span></div>
+      <div class="cc"><div class="cc-n">03</div><div class="cc-t" data-i18n="r3.t">Apropiación Social del Software</div><div class="cc-d" data-i18n="r3.d">La UX/UI debe enfocarse en reducir las brechas de alfabetización digital del usuario objetivo. Un sistema técnicamente brillante que nadie usa es un proyecto fallido.</div><span class="cc-tag">UX · Diseño inclusivo</span></div>
+      <div class="cc"><div class="cc-n">04</div><div class="cc-t" data-i18n="r4.t">Visión de Territorio</div><div class="cc-d" data-i18n="r4.d">El analista moderno debe entender el contexto de despliegue real: conectividad, infraestructura disponible y sistemas preexistentes, antes de diseñar la arquitectura de software.</div><span class="cc-tag" data-i18n="r4.tag">Análisis de contexto</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- MULTIMEDIA -->
+<section id="multimedia">
+  <div class="rv">
+    <div class="eyebrow" data-i18n="media.eyebrow">Multimedia</div>
+    <h2 class="s-title" data-i18n="media.title">Galería completa del evento</h2>
+    <p class="s-sub" data-i18n="media.sub">Todo el contenido visual de las conferencias de Colombia 5.0 reunido en un solo lugar.</p>
+  </div>
+  <div class="pgrid rv">
+    <div class="pi tall" onclick="openLb('ImagenesCol/LC1.png','Dr. Luis Caro – AWS')"><img src="ImagenesCol/LC1.png" alt="Dr. Luis Caro"><div class="pi-ov"><span class="pi-cap">Dr. Luis Caro · AWS</span></div></div>
+    <div class="pi wide" onclick="openLb('ImagenesCol/LC2.png','Agentic AI – How AI Is Reinventing Business')"><img src="ImagenesCol/LC2.png" alt="Slide apertura Agentic AI"><div class="pi-ov"><span class="pi-cap" data-i18n="lc.cap2">Slide de apertura</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/LC3.png','Diagrama de Agentes IA')"><img src="ImagenesCol/LC3.png" alt="Diagrama de agentes"><div class="pi-ov"><span class="pi-cap" data-i18n="lc.cap3">Diagrama conceptual</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/LC4.png','An AI Mindset')"><img src="ImagenesCol/LC4.png" alt="An AI Mindset"><div class="pi-ov"><span class="pi-cap">An AI Mindset</span></div></div>
+    <div class="pi wide" onclick="openLb('ImagenesCol/LC5.png','Demo en vivo – arquitectura de agentes')"><img src="ImagenesCol/LC5.png" alt="Demo en vivo"><div class="pi-ov"><span class="pi-cap" data-i18n="lc.cap5">Demo en vivo · Código</span></div></div>
+    <div class="pi tall" onclick="openLb('ImagenesCol/IG1.png','Rodrigo Reyes – conferencia Colombia 5.0')"><img src="ImagenesCol/IG1.png" alt="Rodrigo Reyes en escenario Colombia 5.0"><div class="pi-ov"><span class="pi-cap">Rodrigo Reyes · apertura</span></div></div>
+    <div class="pi wide" onclick="openLb('ImagenesCol/IG2.png','Rodrigo Reyes – Ecosistemas Digitales')"><img src="ImagenesCol/IG2.png" alt="Slide Ecosistemas Digitales"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap2">Diapositiva del tema</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/IG3.png','Colombia 5.0 – Rodrigo Reyes')"><img src="ImagenesCol/IG3.png" alt="Ponente en escenario"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap3">Presentación en escenario</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/IG4.png','Colombia 5.0 – Rodrigo Reyes')"><img src="ImagenesCol/IG4.png" alt="Diapositiva de la conferencia"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap4">Diapositiva clave</span></div></div>
+    <div class="pi wide" onclick="openLb('ImagenesCol/IG5.png','Rodrigo Reyes – auditorio Colombia 5.0')"><img src="ImagenesCol/IG5.png" alt="Ponente al frente del auditorio"><div class="pi-ov"><span class="pi-cap" data-i18n="ig.cap5">Ponente · auditorio</span></div></div>
+  </div>
+  <div class="rv" style="text-align:center;margin-top:1rem">
+    <a href="createx.html" class="btn-ghost" data-i18n="media.gocreatex">Ver galería Createx →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-l">
+    <strong>Colombia 5.0 – Bogotá 2026</strong><br>
+    <span data-i18n="footer.credits">Informe elaborado por Andres Felipe Guavita Cárdenas · Aprendiz ADSO · SENA Colombia</span><br>
+    <span data-i18n="footer.sub">Conferencias del 8 de mayo · Corferias, Bogotá D.C.</span>
+  </div>
+  <div class="ft-bs">
+    <span class="ft-b">SENA</span>
+    <span class="ft-b">ADSO</span>
+    <span class="ft-b">MinTIC</span>
+    <span class="ft-b">HTML · CSS · JS</span>
+  </div>
+</footer>
+
+<script src="js/colombia.js"></script>
+</body>
+</html>

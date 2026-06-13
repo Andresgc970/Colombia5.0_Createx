@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Createx – Corferias 2026 | SENA ADSO</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Grotesk:wght@300;400;500;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/createx.css">
+
+
+</head>
+<body>
+
+<!-- LIGHTBOX -->
+<div class="lb" id="lb">
+  <button class="lb-x" onclick="closeLb()">✕</button>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">Col<span>5.0</span> · ADSO</a>
+  <ul>
+    <li><a href="index.html" data-i18n="nav.col">Colombia 5.0</a></li>
+    <li><a href="#evento" data-i18n="nav.event">El evento</a></li>
+    <li><a href="#desfile" data-i18n="nav.desfile">Desfile</a></li>
+    <li><a href="#multimedia" class="active" data-i18n="nav.media">Multimedia</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('es')">ES</button>
+      <button class="lang-btn" onclick="setLang('en')">EN</button>
+    </div>
+    <span class="nav-pill">SENA · 2026</span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-dl" data-i18n="hero.dateline">Corferias · Bogotá D.C. · 2026</div>
+  <div class="hero-display">
+    <span class="tc">CREATEX</span>
+  </div>
+  <p class="hero-tagline" data-i18n="hero.tagline">
+    Una feria de innovación textil y de moda celebrada en <strong>Corferias</strong>, donde la tecnología, el diseño y la pasarela se encontraron en un mismo escenario. Este informe recoge un resumen visual del desfile de moda y de la presentación artística que tuvo lugar entre las pasarelas.
+  </p>
+  <div class="hero-btns">
+    <a href="#desfile" class="btn-main" data-i18n="hero.btn_desfile">Ver el desfile →</a>
+    <a href="index.html" class="btn-ghost" data-i18n="hero.btn_back">← Volver a Colombia 5.0</a>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- EL EVENTO -->
+<section id="evento">
+  <div class="about-grid">
+    <div class="about-img rv">
+      <img src="ImagenesCol/cx1.png" alt="Stand Createx en Corferias">
+      <span class="img-label">Createx · Corferias 2026</span>
+    </div>
+    <div class="rv">
+      <div class="eyebrow" data-i18n="about.eyebrow">¿Qué fue Createx?</div>
+      <h2 class="s-title" data-i18n="about.title">Innovación, diseño y moda bajo un mismo techo</h2>
+      <div class="about-text">
+        <p data-i18n="about.p1">Createx fue un espacio ferial dentro de Corferias dedicado a la <strong>industria textil, de confección y diseño de moda</strong>, donde marcas y diseñadores presentaron sus colecciones a través de desfiles en vivo frente al público asistente.</p>
+        <p data-i18n="about.p2">El montaje incluyó un escenario tipo pasarela en blanco, paneles decorativos con vegetación natural y pantallas digitales que acompañaban cada presentación con contenido audiovisual de apoyo.</p>
+        <p data-i18n="about.p3">Para los aprendices de <strong>ADSO</strong>, este tipo de eventos muestra cómo el diseño de experiencias, la producción audiovisual y la tecnología se integran en la puesta en escena de un evento comercial a gran escala.</p>
+      </div>
+      <div class="tags">
+        <span class="tag on">Moda</span>
+        <span class="tag on">Diseño Textil</span>
+        <span class="tag">Pasarela</span>
+        <span class="tag">Artes Escénicas</span>
+        <span class="tag">Corferias</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- DESFILE / RESUMEN -->
+<section id="desfile">
+  <div class="rv">
+    <div class="eyebrow" data-i18n="desfile.eyebrow">Resumen del desfile</div>
+    <h2 class="s-title" data-i18n="desfile.title">Un recorrido por la pasarela Createx</h2>
+    <p class="s-sub" data-i18n="desfile.sub">Durante el desfile, distintas modelos presentaron piezas de diseño contemporáneo sobre la pasarela principal, mientras el público registraba cada salida desde sus asientos.</p>
+  </div>
+
+  <!-- THEATER PERFORMANCE FEATURE -->
+  <div class="feature-card rv">
+    <img src="ImagenesCol/cx4.png" alt="Presentación artística en medio del desfile Createx">
+    <div class="feature-body">
+      <span class="badge" data-i18n="teatro.badge">Momento especial</span>
+      <h3 class="conf-title" style="font-family:var(--font-h);font-size:clamp(1.2rem,2vw,1.6rem);font-weight:800;margin-bottom:.8rem" data-i18n="teatro.title">Una obra de teatro en medio de la pasarela</h3>
+      <p data-i18n="teatro.p1">Uno de los momentos más memorables del desfile fue una <span class="hl">intervención escénica tipo obra de teatro</span> que se presentó entre los segmentos de moda. Una bailarina/actriz vestida con una falda blanca amplia y un chal rojo realizó una coreografía en plena pasarela, combinando danza y actuación.</p>
+      <p data-i18n="teatro.p2">El movimiento del vestuario —la falda blanca ondeando y el chal rojo en el aire— se convirtió en el centro de atención del público, que grabó la escena desde todos los ángulos posibles con sus teléfonos.</p>
+      <p data-i18n="teatro.p3">Esta mezcla de <strong>moda y artes escénicas</strong> reforzó la idea de que un desfile no es solo mostrar ropa, sino crear una experiencia completa para los asistentes, algo a tener en cuenta al diseñar la experiencia de usuario de cualquier producto o evento.</p>
+    </div>
+  </div>
+
+  <!-- PHOTO GALLERY -->
+  <div class="photo-hd rv">📸 <span data-i18n="gallery.title">Galería del desfile</span> <span class="ct">Createx · Corferias 2026</span></div>
+  <div class="pgrid rv">
+    <div class="pi tall" onclick="openLb('ImagenesCol/cx1.png','Createx – stand principal')"><img src="ImagenesCol/cx1.png" alt="Stand Createx"><div class="pi-ov"><span class="pi-cap" data-i18n="cx.cap1">Stand Createx</span></div></div>
+    <div class="pi wide" onclick="openLb('ImagenesCol/cx2.png','Createx – pasarela y público')"><img src="ImagenesCol/cx2.png" alt="Pasarela y público Createx"><div class="pi-ov"><span class="pi-cap" data-i18n="cx.cap2">Pasarela y público</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx3.png','Createx – modelo en pasarela')"><img src="ImagenesCol/cx3.png" alt="Modelo en pasarela"><div class="pi-ov"><span class="pi-cap" data-i18n="cx.cap3">Modelo en pasarela</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx4.png','Createx – performance artística')"><img src="ImagenesCol/cx4.png" alt="Performance artística"><div class="pi-ov"><span class="pi-cap" data-i18n="cx.cap4">Obra de teatro · pasarela</span></div></div>
+    <div class="pi wide" onclick="openLb('ImagenesCol/cx5.png','Createx – performance artística 2')"><img src="ImagenesCol/cx5.png" alt="Performance artística vista 2"><div class="pi-ov"><span class="pi-cap" data-i18n="cx.cap5">Obra de teatro · vista general</span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx6.png','Createx – descripción')"><img src="ImagenesCol/cx6.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx7.png','Createx – descripción')"><img src="ImagenesCol/cx7.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx8.png','Createx – descripción')"><img src="ImagenesCol/cx8.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx9.png','Createx – descripción')"><img src="ImagenesCol/cx9.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx11.png','Createx – descripción')"><img src="ImagenesCol/cx11.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx10.png','Createx – descripción')"><img src="ImagenesCol/cx10.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx12.png','Createx – descripción')"><img src="ImagenesCol/cx12.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx13.png','Createx – descripción')"><img src="ImagenesCol/cx13.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx14.png','Createx – descripción')"><img src="ImagenesCol/cx14.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx15.png','Createx – descripción')"><img src="ImagenesCol/cx15.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx16.png','Createx – descripción')"><img src="ImagenesCol/cx16.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx17.png','Createx – descripción')"><img src="ImagenesCol/cx17.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+    <div class="pi" onclick="openLb('ImagenesCol/cx18.png','Createx – descripción')"><img src="ImagenesCol/cx18.png" alt="Descripción"><div class="pi-ov"><span class="pi-cap"></span></div></div>
+
+  </div>
+
+  <!-- VIDEOS -->
+  <div class="photo-hd rv">🎬 <span data-i18n="video.title">Videos del desfile</span> <span class="ct">Createx · Corferias 2026</span></div>
+  <div class="vgrid rv">
+  <div class="vcard">
+  <video controls poster="ImagenesCol/cx6.png">
+    <source src="ImagenesCol/cx-video3.mp4" type="video/mp4">
+  </video>
+  <div class="vcap"><strong>Título del video</strong> · <span>Descripción breve</span></div>
+</div>
+    <div class="vcard">
+      <video controls poster="ImagenesCol/cx4.png">
+        <source src="ImagenesCol/cx-video1.mp4" type="video/mp4">
+      </video>
+      <div class="vcap"><strong data-i18n="video.cap1t">Performance escénica</strong> · <span data-i18n="video.cap1d">Registro de la obra de teatro entre los desfiles</span></div>
+    </div>
+    <div class="vcard">
+      <video controls poster="ImagenesCol/cx2.png">
+        <source src="ImagenesCol/cx-video2.mp4" type="video/mp4">
+      </video>
+      <div class="vcap"><strong data-i18n="video.cap2t">Pasarela general</strong> · <span data-i18n="video.cap2d">Recorrido de modelos por la pasarela principal</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="ft-l">
+    <strong>Createx – Corferias 2026</strong><br>
+    <span data-i18n="footer.credits">Informe elaborado por Andres Felipe Guavita Cárdenas · Aprendiz ADSO · SENA Colombia</span><br>
+    <span data-i18n="footer.sub">Feria de moda y diseño textil · Corferias, Bogotá D.C.</span>
+  </div>
+  <div class="ft-bs">
+    <span class="ft-b">SENA</span>
+    <span class="ft-b">ADSO</span>
+    <span class="ft-b">Createx</span>
+    <span class="ft-b">HTML · CSS · JS</span>
+  </div>
+</footer>
+
+<script src="js/createx.js"></script>
+</body>
+</html>
